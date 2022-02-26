@@ -1,0 +1,51 @@
+점수들 = [90, 25, 67, 45, 80, 88, 98,11]
+
+number = 0
+for 점수 in 점수들:
+    number = number + 1
+    if 점수 >= 60:
+        print("{}번 학생은 합격입니다.".format(number))
+    else:
+        print("{}번 학생은 불합격입니다.".format(number))
+
+
+print(10)
+print(20)
+print(30) 
+for 숫자 in (10, 20, 30):
+    print(숫자)
+
+import 수학
+print(수학.더하기(3,4))
+
+print(수학.빼기(4,2))
+
+from 수학 import 더하기, 빼기
+print(더하기(3, 4))
+
+import time
+
+print('현재시각:', time.time())
+
+def manyloop(max):
+    t1 = time.time()
+    for a in range(max):
+        pass
+    t2 = time.time()
+    print(t2-t1, '초 경과')
+
+number = int(input('숫자를 입력하세요: '))
+manyloop(number)
+import time
+
+current = time.ctime()
+print(current)
+list_cur = current.spilt(' ')
+print(list_our)
+for + in list_cur:
+    print(t)
+def 더하기(a, b):
+    return a + b
+
+def 빼기(a, b):
+    return a - b
